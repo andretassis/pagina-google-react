@@ -4,3 +4,31 @@
     border-radius: 22px;
     padding: 10px;
 }
+
+.googleSearchBar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.searchIcon,
+.keyboardIcon,
+.microphoneIcon {
+    position: absolute;
+    height: 25px; 
+    width: 25px;
+    cursor: pointer;
+  }
+  
+.searchIcon {
+    left: 500px;
+  }
+  
+.keyboardIcon {
+    right: 530px;
+  }
+  
+.microphoneIcon {
+    right: 500px;
+  }
