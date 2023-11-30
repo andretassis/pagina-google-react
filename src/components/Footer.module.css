@@ -1,0 +1,33 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.containerPais {
+    background-color: #F2F2F2;
+    color: #707070;
+    text-align: left;
+    padding: 1px 25px;
+    border-bottom: 2px solid #DADCE0;
+    font-size: 15px;
+}
+
+.containerInfo {
+    background-color: #F2F2F2;
+    color: #707070;
+    padding: 1px 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.containerInfo li {
+    list-style: none;
+}
+
+.containerInfo ul {
+    display: flex;
+    gap: 15px;
+    padding: 0; 
+}
